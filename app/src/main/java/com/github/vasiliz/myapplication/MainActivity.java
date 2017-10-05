@@ -8,7 +8,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(final Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -25,8 +25,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onPostCreate(@Nullable final Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
     }
-    
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        //stoped activity
+    }
+
     public void picked(){
-        //// TODO: 05.10.2017  
+        //// TODO: 05.10.2017
     }
 }
