@@ -26,9 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onPostCreate(savedInstanceState);
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        //stoped activity
+    public void picked(){
+        //// TODO: 05.10.2017
     }
 }
