@@ -12,4 +12,10 @@ public class MainActivity extends AppCompatActivity {
 
         //add comment
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //destroy activity
+    }
 }
