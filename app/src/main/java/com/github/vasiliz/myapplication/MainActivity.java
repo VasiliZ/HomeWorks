@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
     public void picked(){
         //// TODO: 05.10.2017
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        //stoped activity
+    }
 }
