@@ -1,0 +1,15 @@
+*.apk
+*.ap_ 
+*.dex
+*.class
+gen/
+out/ 
+.gradle/
+build/ 
+local.properties
+*.log
+*.iml
+.idea 
+*.temp
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
